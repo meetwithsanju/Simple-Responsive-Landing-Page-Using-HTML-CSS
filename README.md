@@ -46,7 +46,7 @@ landing-page/
 
 ## 📷 Preview
 
-[Preview Image](./images/1.png)
+[Preview Image](./images/hero_image.png)
 
 
 
