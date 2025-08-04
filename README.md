@@ -39,7 +39,7 @@ landing-page/
 ├── style.css # All styling rules
 └── images/ # Folder for logo and hero image (optional)
 ├── logo.png
-└── 1.png
+└── hero_image.png
 
 
 ---
