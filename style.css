@@ -1,0 +1,161 @@
+/* Styling html */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-color: #0d47a1;
+  color: white;
+  padding: 20px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd600;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #2196f3, #64b5f6);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+#imgSec{
+  display: flex;
+  position: relative;
+ padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 ,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+  /* z-index: -1; */
+
+}
+#imgIntern{
+  /* position: absolute; */
+   width: 100vw;
+   height: 650px;
+   
+   
+}
+
+.applyBtn {
+  position: relative;
+  background: #ffd600;
+  color: #000;
+  padding: 12px 25px;
+  margin-left: 12px auto;
+  top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  
+}
+
+.applyBtn:hover {
+  background: #ffb300;
+}
+
+/* Footer */
+footer {
+  background-color: #0d47a1;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  #imgIntern {
+    margin-top: 20px;
+    max-width: 80%;
+  
+}
+
+  
+}
